@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<
+        project
+        xmlns:dependencia="http://maven.apache.org/POM/4.0.0"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>2.6.2</version>
+        </dependency>
+        <dependency>
+            <groupId>de.adorsys.lock-persistence</groupId>
+            <artifactId>lock-persistence-jpa</artifactId>
+            <version>0.3.2</version>
+            <scope>compile</scope>
+        </dependency>
+
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-inmemory-jvm</artifactId>
+            <version>0.2.10</version>
+            <scope>compile</scope>
+        </dependencies>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-inmemory</artifactId>
+            <version>0.2.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-inmemory-js</artifactId>
+            <version>0.2.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-core-js</artifactId>
+            <version>0.2.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-client-jvm</artifactId>
+            <version>0.2.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-client</artifactId>
+            <version>0.2.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-core-jvm</artifactId>
+            <version>0.2.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-core</artifactId>
+            <version>0.2.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-local</artifactId>
+            <version>0.1.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-local-js</artifactId>
+            <version>0.1.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-local-jvm</artifactId>
+            <version>0.1.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-keyvalue-core-js</artifactId>
+            <version>0.2.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-keyvalue-core</artifactId>
+            <version>0.2.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-keyvalue-core-jvm</artifactId>
+            <version>0.2.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.drewcarlson</groupId>
+            <artifactId>ktor-permissions</artifactId>
+            <version>0.2.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.drewcarlson</groupId>
+            <artifactId>ktor-permissions-jvm</artifactId>
+            <version>0.1.3</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>tz.co.asoft</groupId>
+            <artifactId>persist-client-js</artifactId>
+            <version>0.2.10</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+    <dependency:modelVersion>4.0.0</dependency:modelVersion>
+
+        org.example
+    <dependencia:artifactId>TrabalhandoComJDBCnew</dependencia:artifactId>
+    <dependencia:version>1.0-SNAPSHOT</dependencia:version>
+
+    <dependencia:properties>
+        <dependencia:maven.compiler.source>17</dependencia:maven.compiler.source>
+        <dependencia:maven.compiler.target>17</dependencia:maven.compiler.target>
+    </dependencia:properties>
+
+    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+    <dependency>
+        <dependencia:groupId>org.hibernate</dependencia:groupId>
+        <dependencia:artifactId>hibernate-core</dependencia:artifactId>
+        <dependencia:version>5.4.22.Final</dependencia:version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.22</version>
+    </dependency>
+
+    <dependency>
+        <groupId>javax.persistence</groupId>
+        <artifactId>javax.persistence-api</artifactId>
+        <version>2.2</version>
+    </dependency>
+
+
+
+    <!-- https://mvnrepository.com/artifact/commons-validator/commons-validator -->
+    <dependency>
+        <groupId>commons-validator</groupId>
+        <artifactId>commons-validator</artifactId>
+        <version>1.7</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager -->
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-entitymanager</artifactId>
+                <version>6.0.0.Alpha7</version>
+        <type>pom</type>
+    </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api -->
+    <dependency>
+        <groupId>javax.persistence</groupId>
+        <artifactId>javax.persistence-api</artifactId>
+        <version>2.2</version>
+    </dependency>
+
+</project>

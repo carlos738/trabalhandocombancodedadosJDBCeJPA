@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: de.adorsys.lock-persistence:lock-persistence-core:0.3.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/adorsys/lock-persistence/lock-persistence-core/0.3.2/lock-persistence-core-0.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/de/adorsys/lock-persistence/lock-persistence-core/0.3.2/lock-persistence-core-0.3.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/adorsys/lock-persistence/lock-persistence-core/0.3.2/lock-persistence-core-0.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
